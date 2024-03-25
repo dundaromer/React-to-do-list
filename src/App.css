@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+body {
   background-color: #282c34;
-  min-height: 100vh;
+  color: #fff;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.listCompinput{
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.updateInput{
+  width: 150px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
+}
+.btn{
+  height: 40px;
+  width: 100px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.delBtn{
+  background-color: transparent;
+  color: rgb(143, 7, 7);
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+.updateBtn{
+  background-color: transparent;
+  color: #43f943;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+.delBtn:active{
+  font-size: 25px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.list{
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #0d6efd;
+  border-radius: 10px;
 }
